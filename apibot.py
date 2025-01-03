@@ -23,13 +23,13 @@ async def get_settings():
     return 10, 9  # Default values if not set
 
 # Bot Configuration
-TELEGRAM_BOT_TOKEN = '7253223391:AAFvW9ZnBX3zP4TTnIVgbaFbLtwQUIyRmOc'
+TELEGRAM_BOT_TOKEN = '7253223391:AAFzDsVEdQsQv7HNPubShhSXGRujJoq3t-I'
 ADMIN_USER_ID = 529691217  # Replace with your admin user ID
 # Replace this with your actual list of URLs
 attack_urls = [
-    "https://4259-18-233-99-222.ngrok-free.app/run_Spike",
-    "https://02b0-3-86-193-212.ngrok-free.app/run_Spike",
-    "https://0033-3-93-144-198.ngrok-free.app/run_Spike",
+    "https://4c8d-2a05-d016-57f-b600-52af-306c-3681-2203.ngrok-free.app/run_Spike",
+    "https://5e3c-2a05-d016-57f-b600-f4fa-42a4-d997-59db.ngrok-free.app/run_Spike",
+    "https://232b-2406-da14-1d9a-700-5857-c520-922-b184.ngrok-free.app/run_Spike",
 ]
 # Track user attacks and cooldowns
 cooldown_dict = {}
